@@ -12,7 +12,7 @@ body {
     /* Alinha os elementos na vertical */
     align-items: center;
 
-    background: linear-gradient(to bottom, lightgreen 0%, #9e699e 50%, lightskyblue 100%) ;
+    background: linear-gradient(to bottom, lightgreen 0%, #9e699e 50%, lightskyblue 100%);
 }
 
 .icon {
