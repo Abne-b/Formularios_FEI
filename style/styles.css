@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+/* NÃO ALTERAR ESSAS PROPRIEDADES DO BODY */
+body {
+    /* Altura em 100% do tamanho da janela */
+    height: 100vh;
+    /* Habilita o posicionamento Flexbox */
+    /* Transforma todos em filhos em flex itens */
+    display: flex;
+    /* Alinha os elementos na horizontal */
+    justify-content: center;
+    /* Alinha os elementos na vertical */
+    align-items: center;
+
+    background: linear-gradient(to bottom, lightgreen 0%, #9e699e 50%, lightskyblue 100%) ;
+}
+
+.icon {
+    width: 20%;
+    height: 20%;
+}
+
+#formulario {
+    background-color: aliceblue;
+    padding: 70px 1px;
+    border-radius: 10% ;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    box-shadow: inset 0 0 1em gold, 0 0 1em #000000;
+}
+
+#formulario input {
+    margin-left: 1rem;
+}
+
+h1{
+    color: #7cca7c;
+}
+
+.logar{
+    color:#9e699e;
+}
+
+.desbloquear{
+    color: #82699e;
+}
+
+#botao{
+    background-color:lightseagreen;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 25%;
+    font-weight: bolder;
+    font-family: 'Yellowtail', cursive;
+}
+
+.email{
+    color:#9e699e;
+}
